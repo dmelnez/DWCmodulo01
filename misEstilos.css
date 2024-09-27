@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    background-color: #1C1C1C;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+
+button{
+    width: 90px;
+    height: 40px;
+    border-radius:50px;
+    height:90px;
+    color: white;
+    background-color: #363749;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+  
+}
+
+button:active{
+    background-color: rgba(212, 212, 210, 0.2);
+}
+
+button.operacionalesCalculo{
+    background-color: rgba(212, 212, 210, 0.2);
+
+}
+
+button.calculoSigno{
+    background-color: #FF9500;
+}

@@ -1,85 +1,62 @@
-function suma(a,b){
 
+export function suma(a, b) {
     let resultado;
-
-    if(a == 0 && b == 0 ){
-
-        alert("Error en los valores")
-
+  
+    a = parseInt(a);
+    b = parseInt(b);
+  
+    if (a == 0 && b == 0) {
+      alert("Error en los valores");
+    } else {
+      resultado = a + b;
     }
-
-    else{
-
-        resultado = a + b;
-
-    }
-
+  
     return resultado;
-
-}
-
-
-function resta(a,b){
-
+  }
+  
+  export function resta(a, b) {
     let resultado;
-
-    if(a == 0 && b == 0 ){
-
-        alert("Error en los valores")
-
+  
+    a = parseInt(a);
+    b = parseInt(b);
+  
+    if (a == 0 && b == 0) {
+      alert("Error en los valores");
+    } else {
+      resultado = a - b;
     }
-
-    else{
-
-        resultado = a - b;
-
-    }
-
+  
     return resultado;
-
-}
-
-
-
-
-function division(a,b){
-
+  }
+  
+  export function division(a, b) {
     let resultado;
-
-    if(a == 0 && b == 0 ){
-
-        alert("Error en los valores")
-
+  
+    a = parseInt(a);
+    b = parseInt(b);
+  
+    if (a == 0 && b == 0) {
+      alert("Error en los valores");
+    } else {
+      resultado = a / b;
     }
-
-    else{
-
-        resultado = a / b;
-
-    }
-
+  
     return resultado;
-
-}
-
-
-
-function multiplicacion(a,b){
-
+  }
+  
+  export function multiplicacion(a, b) {
     let resultado;
+  
+    a = parseInt(a);
+    b = parseInt(b);
+  
+    if (a == 0 && b == 0) {
+      alert("Error en los valores");
+    } else {
 
-    if(a == 0 && b == 0 ){
-
-        alert("Error en los valores")
-
+      resultado = a * b;
     }
-
-    else{
-
-        resultado = a * b;
-
-    }
-
+  
     return resultado;
-
-}
+  }
+  
